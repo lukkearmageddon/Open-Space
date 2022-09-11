@@ -49,11 +49,14 @@ function load() {
 	  // keyframes
 	  { transform: 'translateY(-300px) translateX(300px)' }
 	], {
-	  // timing options
-	  duration: 2000,
-	  iterations: 1
-	});
+	  	// timing options
+	  	duration: 2000,
+	  	iterations: 1
+		});
   })
+
+alert('the password is : TrustNo1')
 }
+
 
 window.onload = load;

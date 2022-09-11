@@ -10,7 +10,7 @@ body {
     width: 1480px;
     height: 100vh;
     background-image: url('images/bg.jpg');
-    background-size: contain;
+    background-size: cover;
     background-position: 0 0;
     background-repeat: no-repeat;
     display: flex;
@@ -64,8 +64,13 @@ img {
     inset -5px -5px 10px rgb(122 115 115 / 20%);
 }
 
+.passwordFields {
+    margin: 10px 0;
+}
+
 input[type="password"] {
-    width: 50%;
+    margin-top: 10px;
+    width: 200px;
     border: 2px solid yellow;
     border-radius: 15px;
     background: #424242;
@@ -86,7 +91,7 @@ input[type="button"] {
 }
 
 .button-ok {
-    width: 10%;
+    width: 50px;
     margin-left: 20px;
 }
 
